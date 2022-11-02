@@ -1,0 +1,4 @@
+### 当 JD_COOKIE 剩余有效期不足 N 小时，强制 JD_WSCK(wskey) 转换 JD_COOKIE
+### 赋值要求：正整数数字，（单位：小时）；
+###           空值表示检测到 JD_COOKIE 过期失效后才启动转换。
+WSKEY_UPDATE_VALIDITY_HOUR="7"
